@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="p-5 mb-4 bg-light rounded-3 border text-center">
+    <div class="container-fluid py-3">
+        <h1 class="display-5 fw-bold text-dark">Centralized Campus Event Platform</h1>
+        <p class="fs-4 text-muted mt-3">
+            Discover upcoming academic conferences, departmental workshops, and campus activities at Hawassa University.
+        </p>
+        <div class="d-flex justify-content-center gap-3 mt-4">
+            <a class="btn btn-primary btn-lg" asp-controller="Events" asp-action="Index">Browse Events</a>
+            <a class="btn btn-outline-secondary btn-lg" asp-controller="Auth" asp-action="Register">Join Now</a>
+        </div>
+    </div>
+</div>
